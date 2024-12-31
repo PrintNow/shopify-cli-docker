@@ -9,14 +9,15 @@ Base on:
 
 | tag                  | Docker Pull Command                      |
 |----------------------|------------------------------------------|
-| **latest** `v2.32.0` | `docker pull shine09/shopify-cli`        |
+| **latest** `v2.36.0` | `docker pull shine09/shopify-cli`        |
+| **v2.36.0**          | `docker pull shine09/shopify-cli:2.36.0` |
 | **v2.32.0**          | `docker pull shine09/shopify-cli:2.32.0` |
 
 ## Custom Build
 
 ```shell
-docker build -t <tag> --build-arg version=2.32.0 .
+docker build -t <tag> --build-arg version=2.36.0 .
 
 # for example
-docker build -t shine09/shopify-cli:2.32.0 --build-arg version=2.32.0 .
+docker build -t shine09/shopify-cli:2.36.0 --build-arg version=2.36.0 .
 ```
